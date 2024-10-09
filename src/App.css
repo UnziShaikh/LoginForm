@@ -1,0 +1,64 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  height: 100vh; /* Full height of the viewport */
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.App {
+  width: 100%; /* Full width to utilize flexbox centering */
+}
+
+.login-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  min-width: 300px; /* Minimum width for the form */
+  max-width: 400px; /* Maximum width for the form */
+  text-align: center; /* Center text inside the form */
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+}
+
+.login-form div {
+  margin-bottom: 15px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+.login-form p {
+  color: green; /* Message color */
+  margin-top: 10px;
+}
